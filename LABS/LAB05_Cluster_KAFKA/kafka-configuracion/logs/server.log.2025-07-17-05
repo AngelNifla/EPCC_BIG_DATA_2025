@@ -1,0 +1,4 @@
+[2025-07-17 06:16:30,626] INFO Committing global session 0x100003887e90003 (org.apache.zookeeper.server.quorum.LearnerSessionTracker)
+[2025-07-17 06:16:30,956] INFO Unable to read additional data from client, it probably closed the socket: address = /172.31.70.116:43604, session = 0x100003887e90003 (org.apache.zookeeper.server.NIOServerCnxn)
+[2025-07-17 06:21:16,982] INFO Committing global session 0x100003887e90004 (org.apache.zookeeper.server.quorum.LearnerSessionTracker)
+[2025-07-17 06:23:37,502] INFO Committing global session 0x300003891990001 (org.apache.zookeeper.server.quorum.LearnerSessionTracker)

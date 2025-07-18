@@ -1,0 +1,3 @@
+[2025-07-17 18:46:09,574] INFO Committing global session 0x10000061dd30004 (org.apache.zookeeper.server.quorum.LearnerSessionTracker)
+[2025-07-17 18:54:21,606] INFO Submitting global closeSession request for session 0x10000061dd30004 (org.apache.zookeeper.server.ZooKeeperServer)
+[2025-07-17 18:54:33,478] INFO Committing global session 0x10000061dd30005 (org.apache.zookeeper.server.quorum.LearnerSessionTracker)

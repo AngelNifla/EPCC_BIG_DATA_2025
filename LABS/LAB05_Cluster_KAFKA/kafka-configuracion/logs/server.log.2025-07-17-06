@@ -1,0 +1,14 @@
+[2025-07-17 08:19:48,963] WARN Connection broken for id 2, my id = 1 (org.apache.zookeeper.server.quorum.QuorumCnxManager)
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:1390)
+[2025-07-17 08:19:48,967] WARN Interrupting SendWorker thread from RecvWorker. sid: 2. myId: 1 (org.apache.zookeeper.server.quorum.QuorumCnxManager)
+[2025-07-17 08:19:48,969] WARN Interrupted while waiting for message on queue (org.apache.zookeeper.server.quorum.QuorumCnxManager)
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2133)
+	at org.apache.zookeeper.util.CircularBlockingQueue.poll(CircularBlockingQueue.java:105)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:1453)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$900(QuorumCnxManager.java:99)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:1277)
+[2025-07-17 08:19:48,969] WARN Send worker leaving thread id 2 my id = 1 (org.apache.zookeeper.server.quorum.QuorumCnxManager)

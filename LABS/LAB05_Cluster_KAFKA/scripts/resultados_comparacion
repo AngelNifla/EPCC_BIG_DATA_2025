@@ -1,0 +1,10 @@
+== Resultados de la Comparación ==
+Controlador: Zookeeper
+Tópico: demo-topic
+Mensajes producidos: 300
+Tiempo creación tópico: 2.927027211 segundos
+Tiempo producción: 2.502576362 segundos
+Mensajes consumidos: 300
+Tiempo consumo: 62.907386564 segundos
+Promedio failover: 2.31656129900000000000 segundos
+Promedio reintegración ISR: 2.42902622400000000000 segundos

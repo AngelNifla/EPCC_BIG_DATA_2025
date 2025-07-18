@@ -1,0 +1,1 @@
+[2025-07-13 19:31:28,283] INFO [QuorumController id=1] Replayed BrokerRegistrationChangeRecord modifying the registration for broker 1: BrokerRegistrationChangeRecord(brokerId=1, brokerEpoch=769, fenced=0, inControlledShutdown=1) (org.apache.kafka.controller.ClusterControlManager)
